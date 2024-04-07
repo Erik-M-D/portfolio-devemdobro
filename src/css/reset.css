@@ -1,0 +1,26 @@
+/* resetando o css | navegador por padrão coloca css automaticamente, tirar para não atrapalhar */
+
+/* Existem resets prontos na net */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    /* tirar a bolinha das listas */
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
